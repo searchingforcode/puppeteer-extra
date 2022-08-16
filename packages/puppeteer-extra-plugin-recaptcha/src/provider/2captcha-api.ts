@@ -6,8 +6,8 @@ var url = require('url')
 var querystring = require('querystring')
 
 var apiKey
-var apiInUrl = 'https://2captcha.com/in.php'
-var apiResUrl = 'https://2captcha.com/res.php'
+var apiInUrl = 'http://api.deathbycaptcha.com/2captcha/in.php';  // https://2captcha.com/in.php
+var apiResUrl = 'http://api.deathbycaptcha.com/2captcha/res.php'; // 'https://2captcha.com/res.php'
 var apiMethod = 'base64'
 var SOFT_ID = '2589'
 
